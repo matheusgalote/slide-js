@@ -83,7 +83,6 @@ export default class Slide {
     this.moveSlide(activeSlide.position);
     this.slideIndexNav(index);
     this.dist.finalPosition = activeSlide.position;
-    console.log(this.dist.finalPosition);
   }
 
   init() {
