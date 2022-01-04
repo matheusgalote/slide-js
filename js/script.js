@@ -5,4 +5,5 @@ slide.init();
 slide.addArrow('.prev', '.next');
 
 slide.addControl('.custom-controls');
+// slide.timeToNext();
 

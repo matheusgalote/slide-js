@@ -213,6 +213,11 @@ export default class SlideNav extends Slide {
 
   }
 
+  // Passa o slide automaticamente após 3s 
+  timeToNext() {
+    setInterval(() => this.activeNextSlide(), 3000);
+  }
+
   bindControlEvents() {
     this.eventControl = this.eventControl.bind(this);
     this.activeControlItem = this.activeControlItem.bind(this);
